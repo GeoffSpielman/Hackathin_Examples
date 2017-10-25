@@ -12,7 +12,7 @@ void loop() {
 
     while (Serial.available())
     {    
-      char inChar = Serial.read();
+      char inChar = (char)Serial.read();
       if (inChar != '~'){
           inputString += inChar;
       }
