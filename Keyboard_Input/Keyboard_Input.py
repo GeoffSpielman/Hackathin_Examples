@@ -18,6 +18,10 @@ while (not exitGame):
 			
 			#clear previous rectangles
 			canvas.fill((0,0,0))
+			#draw background plus again
+			pygame.draw.rect(canvas, (0, 20, 100), (250, 150, 50, 150))
+			pygame.draw.rect(canvas, (0, 20, 100), (200, 200, 150, 50))
+
 
 			if event.key == pygame.K_LEFT:
 				print("Left")
