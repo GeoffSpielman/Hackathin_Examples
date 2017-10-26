@@ -104,3 +104,40 @@ print('looking for five: ' + str(list2D[1][1]))
 
 
 print("\n=== Loops ===")
+count = 1
+while (count < 5):
+	print (count)
+	count += 1
+else:
+	print("I only run once at the end")
+
+print("What is the point of the else if this runs next anyway?")
+
+
+greatNumbers = [2, 7, 19, 32, 81, 42, 360, 12]
+for i in range(0, len(greatNumbers)):
+	print("Number " + str(i + 1) + " is " + str(greatNumbers[i]))
+
+for letter in 'Python':
+   print ('Current Letter :', letter)
+
+fruits = ['banana', 'apple',  'mango']
+for fruit in fruits: 
+   print ('Current fruit :', fruit)
+
+#break terminates the current loop and moves to the next line below it
+for i in range (0, 10):
+	if (i == 4):
+		print("I DON'T LIKE FOUR!!!")
+		break
+	print(i)
+
+print('\n')
+
+#continue returns to the beggining of the loop for the next iteration 
+# (skips the rest of the body of the loop)
+for i in range(0,10):
+	if (i == 4):
+		print("Four is pretty mediocre")
+		continue
+	print (i)
