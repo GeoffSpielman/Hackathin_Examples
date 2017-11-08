@@ -25,8 +25,8 @@ class Block(pygame.sprite.Sprite):
 
 pygame.init()
 #its useful to keep these as constants
-SCREEN_WIDTH = 500
-SCREEN_HEIGHT = 800
+SCREEN_WIDTH = 400
+SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
 pygame.display.set_caption("Geoff's Game")
 
